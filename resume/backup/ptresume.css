@@ -1,0 +1,27 @@
+.hl {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 21pt;
+	color: #000000;
+	font-weight: bold;
+	font-style: italic;
+	line-height: 21pt;
+}
+.hl2 {
+	font-family: "Lucida Grande", "Lucida Sans", Helvetica;
+	font-size: 10pt;
+	color: #000000;
+}
+.subhl {
+	font-family: "Lucida Grande", "Lucida Sans", Helvetica;
+	font-size: 12pt;
+	color: #000000;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 12pt;
+}
+.copy {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 11pt;
+	color: #000000;
+	line-height: 12pt;
+}

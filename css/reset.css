@@ -1,0 +1,63 @@
+/* reset.css 
+-------------- */
+/* line 3, ../sass/_reset-global.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+/* remember to define focus styles! */
+/* line 22, ../sass/_reset-global.scss */
+:focus {
+  outline: 0;
+}
+
+/* line 25, ../sass/_reset-global.scss */
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+
+/* line 30, ../sass/_reset-global.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+/* line 34, ../sass/_reset-global.scss */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+/* line 38, ../sass/_reset-global.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+}
+
+/* line 42, ../sass/_reset-global.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+}
+
+/* line 46, ../sass/_reset-global.scss */
+blockquote, q {
+  quotes: "" "";
+}

@@ -1,0 +1,23 @@
+/* Caution! Ensure accessibility in print and other media types... */
+@media projection, screen { /* Use class for showing/hiding tab content, so that visibility can be better controlled in different media types... */
+    .tabs-hide {
+        display: none;
+    }
+}
+
+/* Hide useless elements in print layouts... */
+@media print {
+    .tabs-nav {
+        display: none;
+    }
+}
+
+#numbers .tabs-selected a#one {
+background-position: 0 -31px;
+cursor: default;
+}
+
+#numbers .tabs-selected a#two {
+background-position: -34px -31px;
+cursor: default;
+}

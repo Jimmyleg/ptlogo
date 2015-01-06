@@ -1,0 +1,119 @@
+/* print.css - ptlogo */
+
+/* colors */
+/* purple - #648 */
+/* light beish - #faf7f0 */
+/* red - #d22 */
+/* tan - #d4cdc7 */
+/* green - #141 */
+/* pink - #fcd7d7 */
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+font-family: Futura, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 11px;
+font-style: normal;
+font-weight: normal;
+color: #000;
+background-color: #fff;
+
+
+}
+a:link {
+color: #000;
+}
+a:hover, dl a:hover, p a:hover {
+	color: #000;
+}
+a:visited {
+color: #000;
+}
+img {
+border: 0;
+}
+h1 {
+font-size: 36px;
+letter-spacing: -1px;
+font-weight: normal;
+}
+h2, dt {
+font-size: 24px;
+font-weight: normal;
+letter-spacing: -1px;
+}
+h3 {
+font-weight: normal;
+font-size: 18px;
+}
+h4 {
+font-weight: normal;
+font-size: 14px;
+}
+h5 {
+font-weight: normal;
+font-size: 12px;
+}
+
+p, dd {
+font-size: 12px;
+line-height: 130%;
+color: #000;
+
+}
+
+
+#wrap
+{
+background-color: #fff;
+text-align: left;
+}
+
+/* start content*/
+
+#wrap h1 {
+color: #000;
+text-align: center;
+}
+#wrap h2 {
+margin-bottom: 5px;
+margin-top: 15px;
+border-bottom: 1px solid #ccc;
+}
+
+.headinfo {
+border-top: 1px solid #333;
+border-bottom: 1px solid #333;
+margin-top: 5px;
+margin-bottom: 10px;
+text-align: center;
+}
+.headinfo p {
+margin: 0;
+padding-top: 5px;
+padding-bottom: 5px;
+text-transform: uppercase;
+color: #000;
+font-size: 16px;
+}
+
+
+
+.smlist {
+font-size: 12px;
+margin-bottom: 10px;
+}
+.smlist ul {
+
+}
+
+.smlist li {
+line-height: 130%;
+list-style-type: disc;
+list-style-position: outside;
+padding-left: 5px;
+margin-left: 30px;
+margin-right: 30px;
+}

@@ -1,0 +1,185 @@
+/* standard.css - PT LOGO */
+
+* {
+margin: 0;
+padding: 0;
+}
+
+a {
+outline: none;
+}
+
+img {
+border: 0;
+}
+
+#content strong {
+font-weight: normal;
+color: #000000;
+}
+
+
+body {
+font-family: "Gill Sans", "Gill Sans MT", Helvetica, Arial, sans-serif;
+font-size: 62.5%;
+color: #444444;
+}
+
+html>body {
+font-size: 10px;
+}
+
+
+h1, h2, h3, h4, h5 {
+font-weight: normal;
+font-family: "Futura", "Futura Medium", "Gill Sans", "Gill Sans MT", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+font-size: 2.5em;
+color: #4D216C;
+letter-spacing: -1px;
+
+}
+
+#h2-process {
+text-indent: -5000px;
+background: url(../images/h2-process.gif) no-repeat 50% 0;
+height: 48px;
+margin-bottom: 20px;
+}
+
+
+
+body#home {
+background-color: #4D216C;
+padding-top: 10%;
+}
+
+body#norm {
+padding-top: 15px;
+padding-bottom: 15px;
+background: url("../images/bk.gif") #f8f4ec repeat 0 0 fixed;
+}
+
+
+#wrap p {
+font-size: 1.6em;
+line-height: 130%;
+margin-bottom: 20px;
+}
+
+#logo {
+background-position: 50% 0;
+background-image: url("../images/logo.gif");
+background-repeat: no-repeat;
+height: 130px;
+width: 700px;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+
+h1#logolink a {
+display: block;
+height: 130px;
+width: 700px;
+text-indent: -999em;
+float: left;
+}
+
+h1#logolink a,h1#logolink a:link, h1#logolink a:visited, h1#logolink a:hover, h1#logolink a:active {
+text-decoration: none;
+}
+
+#wrap {
+margin-left: auto;
+margin-right: auto;
+}
+
+#home #wrap {
+text-align: center;
+}
+
+#norm #wrap {
+width: 640px;
+text-align: center;
+padding: 10px 30px 30px 30px;
+background: url("../images/wrapbk.gif") repeat-y 0 0;
+
+}
+
+
+#hide {
+float: left;
+text-indent: -999em;
+}
+
+#content {
+clear: both;
+}
+
+
+#navcontainer
+{
+font-family: "Copperplate", "Gill Sans", "Gill Sans MT", Helvetica, Arial, sans-serif;
+font-weight: bold;
+text-transform: uppercase;
+margin: 0 auto 20px auto;
+border-bottom: 1px solid #cac3bb;
+
+}
+
+#navlist {
+text-align: center;
+margin: 0 auto;
+padding: 0;
+text-indent: 0;
+list-style-type: none;
+}
+
+#navlist li {
+padding: 5px 0 5px 0;
+margin: 0;
+text-indent: 0;
+display: inline;
+border-left: 1px dotted #cac3bb;
+}
+li#active {
+border-left: 1px dotted #f8f5ec;
+}
+
+#navlist li a {
+letter-spacing: -1px;
+text-decoration: none;
+color: #cc0000;
+font-size: 1.7em;
+padding: 0 5px;
+line-height: 1.7em;
+}
+
+#navlist li a:hover {
+color: #006600;
+font-size: 2.2em;
+line-height: 1em;
+}
+
+#footer {
+margin: 0 auto 0 auto;
+clear: both;
+width: 640px;
+text-align: center;
+padding: 10px 30px 15px 30px;
+background: url("../images/footer.gif") no-repeat left bottom;
+}
+#footer p {
+font-family: Futura, "Gill Sans", "Gill Sans MT", Arial, Helvetica, sans-serif;
+font-size: 1.1em;
+color: #4D216C;
+
+}
+
+
+
